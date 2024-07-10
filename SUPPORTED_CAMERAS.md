@@ -551,7 +551,7 @@
 |Panasonic                           | DC-GH5M2                                | ✅ Yes | 4:3 |  |
 |Panasonic                           | DC-GH5S                                 | ✅ Yes | 16:9, 1:1, 3:2, 4:3 |  |
 |Panasonic                           | DC-GH6                                  | ✅ Yes | 16:9, 1:1, 3:2, 4:3 |  |
-|Panasonic                           | DC-GH7                                  | ✅ Yes | 16:9, 1:1, 3:2, 4:3 |  |
+|Panasonic                           | DC-GH7                                  | ✅ Yes | 4:3 |  |
 |Panasonic                           | DC-GX7MK3                               | ✅ Yes | 16:9, 1:1, 3:2, 4:3 |  |
 |Panasonic                           | DC-GX800                                | ✅ Yes | 4:3 |  |
 |Panasonic                           | DC-GX850                                | ✅ Yes | 4:3 |  |

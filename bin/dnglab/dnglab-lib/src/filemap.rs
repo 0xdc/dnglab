@@ -2,7 +2,7 @@
 // Copyright 2021 Daniel Vogelbacher <daniel@chaospixel.com>
 
 use std::{
-  fs::{self, read_dir},
+  fs::{self, read_dir, create_dir_all},
   path::{Path, PathBuf},
 };
 
@@ -89,7 +89,7 @@ impl MapMode {
       Ok(MapMode::File(FileMap::new(&input.canonicalize()?, output)))
     } else if input_md.is_dir() {
       if !output.exists() {
-        return Err(AppError::NotFound(output.to_owned()));
+        create_dir_all(output)?;
       }
       let output_md = output.metadata()?;
       if !output_md.is_dir() {

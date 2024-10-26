@@ -62,21 +62,21 @@ pub fn create_app() -> Command {
       arg!(preview: --"dng-preview" <preview> "DNG include preview image")
         .value_parser(ValueParser::bool())
         .required(false)
-        .default_value("true")
+        .default_value("false")
         .default_missing_value("true"),
     )
     .arg(
       arg!(thumbnail: --"dng-thumbnail" <thumbnail> "DNG include thumbnail image")
         .value_parser(ValueParser::bool())
         .required(false)
-        .default_value("true")
+        .default_value("false")
         .default_missing_value("true"),
     )
     .arg(
       arg!(embedded: --"embed-raw" <embedded> "Embed the raw file into DNG")
         .value_parser(ValueParser::bool())
         .required(false)
-        .default_value("true")
+        .default_value("false")
         .default_missing_value("true"),
     )
     .arg(
